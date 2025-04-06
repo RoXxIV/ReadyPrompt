@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Helper</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <h3>Choose a Prompt</h3>
+    <ul id="prompt-list">
+        <p>Loading...</p>
+    </ul>
+
+    <hr> <h3>Or enter a quick prompt:</h3>
+    <div class="custom-prompt-section">
+        <label for="custom-title">Title</label>
+        <input type="text" id="custom-title" placeholder="Prompt name">
+
+        <label for="custom-prompt">Prompt text</label>
+        <textarea id="custom-prompt" rows="4" placeholder="Enter your prompt here..."></textarea>
+
+        <div class="custom-prompt-actions">
+            <button id="add-custom-prompt" title="Add the title and text to your prompt list">Add</button>
+        </div>
+    </div>
+
+    <script src="popup.js" defer></script>
+</body>
+</html>
