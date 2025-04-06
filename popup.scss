@@ -2,7 +2,7 @@
 $primary-orange: rgb(255, 125, 89);
 $text-color: #333;
 $body-bg: #f0f0f0;
-$section-bg: #f9f9f9;
+$section-bg: #ffffff;
 $border-color-main: #d96450;
 $list-item-shadow: rgba(0, 0, 0, 0.1);
 $button-text-light: white;
@@ -14,12 +14,16 @@ $input-focus-border: darken($primary-orange, 10%);
 // --- Styles généraux ---
 body {
     font-family: Arial, sans-serif;
-    background-color: $body-bg;
+    // background-color: $body-bg;
     margin: 0;
     padding: 20px;
     color: $text-color;
     width: 350px;
     box-sizing: border-box;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: linear-gradient(#434344 1px, transparent 1px), linear-gradient(to right, #434344 1px, #e5e5f7 1px);
+    background-size: 20px 20px;
 
     h3 {
         font-size: 1.2em;
@@ -130,10 +134,16 @@ hr {
     margin: auto;
     width: 100%;
     padding: 15px;
-    background-color: $section-bg;
+    //background-color: $section-bg;
     border-radius: 5px;
     box-shadow: 0 2px 5px $list-item-shadow;
     box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 
     label {
         display: block;

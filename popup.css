@@ -1,11 +1,12 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   margin: 0;
   padding: 20px;
   color: #333;
   width: 350px;
   box-sizing: border-box;
+
 }
 body h3 {
   font-size: 1.2em;
@@ -100,10 +101,10 @@ hr {
   margin: auto;
   width: 100%;
   padding: 15px;
-  background-color: #f9f9f9;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .custom-prompt-section label {
   display: block;
