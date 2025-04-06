@@ -1,4 +1,4 @@
-# [Nom de l'Extension]
+# [ReadyPrompt]
 
 Une extension Chrome simple pour sauvegarder et injecter rapidement vos prompts favoris.
 
@@ -49,4 +49,4 @@ Cette extension n'est pas encore publiée sur le Chrome Web Store. Pour l'utilis
 * L'injection de texte peut ne pas fonctionner parfaitement sur certains sites web très complexes qui utilisent des techniques avancées pour gérer leurs champs de saisie (comme la recherche Google, par exemple).
 
 ---
-![Capture d'écran de la popup de l'extension](https://postimg.cc/1nD5cPFK)
+![Capture d'écran de la popup de l'extension](resume.jpg)
